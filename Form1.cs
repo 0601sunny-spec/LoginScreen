@@ -67,7 +67,7 @@ namespace LoginScreen3
             {
                 txtPW.UseSystemPasswordChar = false;
                 txtPW.Text = "패스워드";
-                txtPW.ForeColor = Color.Silver;
+                txtPW.ForeColor = Color.Silver; 
             }
         }
     }
