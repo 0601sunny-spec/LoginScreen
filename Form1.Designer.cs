@@ -53,6 +53,8 @@
             txtID.Size = new Size(389, 57);
             txtID.TabIndex = 1;
             txtID.Text = "아이디";
+            txtID.Enter += txtID_Enter;
+            txtID.Leave += txtID_Leave_1;
             // 
             // txtPW
             // 
@@ -63,6 +65,8 @@
             txtPW.Size = new Size(389, 57);
             txtPW.TabIndex = 2;
             txtPW.Text = "패스워드";
+            txtPW.Enter += txtPW_Enter_1;
+            txtPW.Leave += txtPW_Leave_1;
             // 
             // btnLogin
             // 
@@ -75,7 +79,7 @@
             btnLogin.TabIndex = 3;
             btnLogin.Text = "button1";
             btnLogin.UseVisualStyleBackColor = false;
-            btnLogin.Click += btnLogin_Click_1;
+            btnLogin.Click += btnLogin_Click;
             // 
             // Form1
             // 
